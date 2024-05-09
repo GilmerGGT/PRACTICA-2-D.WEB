@@ -1,0 +1,88 @@
+body {
+    width: 750px;
+    height: 750px;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: #96d574; 
+    
+}
+.header {
+     
+    width: 750px; 
+    height: 250px;
+    padding: 10px;
+    background-color: #2a744c; 
+    display: flex ; 
+    justify-content: space-between ; 
+    align-items:flex-start;
+    border: 5px solid #000; 
+    }
+
+.banner {
+    width: 500px; 
+    height: 250px; 
+
+    background-color: #2cff8e; 
+    border-bottom: 2px solid #000000; 
+    border-top: 2px solid #000000; 
+    border:  2px solid black;
+    flex-direction: column;
+}
+.logo{
+    width: 250px; 
+    height: 250px; 
+   
+    background-color: #75d31d;
+
+    float: right;
+    border:  2px solid black;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.nav{
+    width: 750px;
+    height: 50px;
+    background-color: #1dd3b5;
+    border: 5px solid #000; 
+    padding: 10px;
+
+}
+
+.main {
+    width: 750px;
+    height: 400px;
+    background-color: #d3c41d;
+    border: 5px solid #000; 
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start; /* Cambiado de space-between a flex-start */
+}
+
+    
+.article{ 
+    width: 450px;
+    height: 400px;
+    background-color: #d36f1d;
+    border-bottom: 2px solid #000000; 
+    border-top: 2px solid #000000; 
+    border:  2px solid black;
+}
+.aside{ 
+    width: 300px;
+    height: 400px;
+    background-color: #99d31d;
+    border-bottom: 2px solid #000000; 
+    border-top: 2px solid #000000; 
+    border:  2px solid black;
+    margin-left: 10px;
+}
+
+.footer{
+    width: 750px;
+    height: 50px;
+    background-color: #1dd3b5;
+    border: 5px solid #000; 
+    padding: 10px;
+
+}   
